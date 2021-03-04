@@ -34,6 +34,7 @@ body {
 }
 
 .toggle {
+  cursor: pointer;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 0;
@@ -68,6 +69,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in;
 }
 
 .needle.hour {
