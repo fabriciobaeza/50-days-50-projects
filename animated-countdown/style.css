@@ -45,6 +45,7 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+  text-align: center;
 }
 
 .final.show {
@@ -103,7 +104,7 @@ h4 {
     transform: translate(-50%, -50%) rotate(10deg);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(120deg);
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 }
 
